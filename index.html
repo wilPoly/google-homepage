@@ -1,41 +1,45 @@
 <!DOCTYPE html>
-<html>
+<hmtl>
 	<head>
-		<title>Google</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./styles/stylesheet.css" />
+		<title>Google Fake</title>
 	</head>
+	
 	<body>
-		<div id="wrapper">
-		<div class="nav">
-			<a href="https://www.gmail.com">Gmail</a>
-			<a href="https://images.google.com">Images</a>
-			<a >Apps</a>
-			<a>Notifications</a>
-			<a>User</a>
-		</div>
-
-		<div class="main">
-			<div id="logo">
-				<p id="region">France</p>
+		<div id="top_bar">
+			<div class="gmail_images">
+				<div class="link_top"><a href="#">Gmail</a></div>
+				<div class="link_top"><a href="#">Images</a></div>
+				<div class="apps"><a href="#" title="Applications Google"></a></div>
+				<div class="login_button"><a href="#" id="login">Connexion</a></div>
 			</div>
-			<form action="blablah.php" method="POST" id="form">
-				<input id="searchbar" type="text" name="searchbar" />
-				<p><input type="submit" value="Recherche Google" />
-				<input type="submit" value="J&apos;ai de la chance" /></p>
+		</div>
+		<div id="content">
+			<div id="google">
+				<div id="logo_subtext">France</div>
+			</div>
+			<form id="search_form_container">
+				<div id="search_form">
+					<input type="text" name="search" title="Rechercher" id="search_input">
+				</div>
+				<div id="search_buttons">
+					<center>
+					<input type="submit" value="Recherche Google" class="buttons">
+					<input type="submit" value="J'ai de la chance" class="buttons">
+					</center>
+				</div>
 			</form>
 		</div>
-
-		<div class="footer">
-				<a href="https://www.google.com/fr">Publicité</a>
-				<a href="https://www.google.com/fr">Entreprise</a>
-				<a href="https://www.google.com/fr">A propos</a>
-				<a href="https://www.google.com/fr"></a>
-				<a href="https://www.google.com/fr">Confidentialité</a>
-				<a href="https://www.google.com/fr">Conditions</a>
-				<a href="https://www.google.com/fr">Paramètres</a>
+		<div class="bottom_bar">
+			<a class="link_bottom_left" href="#">Publicité</a>
+			<a class="link_bottom_left" href="#">Entreprise</a>
+			<a class="link_bottom_left" href="#">À propos</a>
+			<a class="link_bottom_right" href="#">Utiliser Google.com</a>
+			<a class="link_bottom_right" href="#">Paramètres</a>
+			<a class="link_bottom_right" href="#">Conditions</a>
+			<a class="link_bottom_right" href="#">Confidentialité</a>
 		</div>
-	</div>
 	</body>
 </html>
+			
